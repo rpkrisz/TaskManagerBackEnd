@@ -17,7 +17,10 @@ ENV LOG_CHANNEL stderr
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
+# Change ownership to the web user
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+
+# Set correct permissions
 RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 CMD ["/start.sh"]
