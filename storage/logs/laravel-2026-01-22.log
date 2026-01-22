@@ -1,0 +1,5 @@
+[2026-01-22 21:39:05] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\Users\User\OneDrive\Dokumentumok\GitHub\TaskManagerBackEnd\bootstrap\cache\ser45AC.tmp,C:\Users\User\OneDrive\Dokumentumok\GitHub\TaskManagerBackEnd\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\Users\\User\\OneDrive\\Dokumentumok\\GitHub\\TaskManagerBackEnd\\bootstrap\\cache\\ser45AC.tmp,C:\\Users\\User\\OneDrive\\Dokumentumok\\GitHub\\TaskManagerBackEnd\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:\\Users\\User\\OneDrive\\Dokumentumok\\GitHub\\TaskManagerBackEnd\\vendor\\_laravel_ide\\discover-f5442aeac73a6a9021bd7ce113d6a606.php:33)
+[stacktrace]
+#0 C:\\Users\\User\\OneDrive\\Dokumentumok\\GitHub\\TaskManagerBackEnd\\vendor\\_laravel_ide\\discover-f5442aeac73a6a9021bd7ce113d6a606.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
