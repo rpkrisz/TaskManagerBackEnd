@@ -19,6 +19,7 @@ class ProfileUpdateRequest extends FormRequest
       'first_name' => ['required', 'string', 'max:50'],
       'last_name' => ['required', 'string', 'max:50'],
       'nick_name' => ['present', 'string', 'max:50'],
+      'color_theme' => ['present', 'string', 'max:50'],
       'email' => [
         'required',
         'string',
@@ -36,6 +37,7 @@ class ProfileUpdateRequest extends FormRequest
       'first_name' => $this->firstName,
       'last_name' => $this->lastName,
       'nick_name' => $this->nickName,
+      'color_theme' => $this->colorTheme,
     ]);
   }
 }
